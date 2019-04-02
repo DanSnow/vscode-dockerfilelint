@@ -6,7 +6,6 @@ import {
   Position,
   Range,
   TextDocument,
-  Uri,
   languages,
   workspace
 } from 'vscode'
@@ -14,13 +13,14 @@ import {
 import {run} from 'dockerfilelint'
 
 let diagnosticCollection: DiagnosticCollection
-let diagnosticMap: Map<string, Diagnostic[]>
 
 const LANGUAGE_ID = 'dockerfile'
 
 export function activate(context: ExtensionContext) {
   diagnosticCollection = languages.createDiagnosticCollection('dockerlint')
-  diagnosticMap = new Map()
+
+  workspace.textDocuments.forEach(lint)
+
   context.subscriptions.push(
     workspace.onDidChangeTextDocument(event => {
       if (event.document.languageId === LANGUAGE_ID) {
@@ -33,6 +33,14 @@ export function activate(context: ExtensionContext) {
     workspace.onDidOpenTextDocument(event => {
       if (event.languageId === LANGUAGE_ID) {
         lint(event)
+      }
+    })
+  )
+
+  context.subscriptions.push(
+    workspace.onDidCloseTextDocument(event => {
+      if (event.languageId === LANGUAGE_ID && diagnosticCollection.has(event.uri)) {
+        diagnosticCollection.delete(event.uri)
       }
     })
   )
@@ -54,13 +62,5 @@ function lint(document: TextDocument) {
     const range = new Range(start, end)
     return new Diagnostic(range, item.description, DiagnosticSeverity.Warning)
   })
-  diagnosticMap.set(document.uri.toString(), diagnostics)
-  reset()
-}
-
-function reset() {
-  diagnosticCollection.clear()
-  diagnosticMap.forEach((diagnostic, uri) => {
-    diagnosticCollection.set(Uri.parse(uri), diagnostic)
-  })
+  diagnosticCollection.set(document.uri, diagnostics)
 }
