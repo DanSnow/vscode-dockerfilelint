@@ -52,8 +52,9 @@ function lint(document: TextDocument) {
   const lines = text.split(/\r?\n/)
   const items = run(workspaceBase, text)
   const diagnostics = items.map(item => {
-    const start = new Position(item.line, 0)
-    const end = new Position(item.line, lines[item.line].length)
+    const line = item.line - 1
+    const start = new Position(line, 0)
+    const end = new Position(line, lines[line].length)
     const range = new Range(start, end)
     return new Diagnostic(range, item.description, DiagnosticSeverity.Warning)
   })
