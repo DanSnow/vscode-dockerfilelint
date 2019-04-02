@@ -24,8 +24,15 @@
   "devDependencies": {
     "@types/mocha": "^2.2.42",
     "@types/node": "^10.12.21",
-    "dts-gen": "^0.5.7",
-    "tslint": "^5.12.1",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
     "typescript": "^3.3.1",
     "vscode": "^1.1.28"
   },
