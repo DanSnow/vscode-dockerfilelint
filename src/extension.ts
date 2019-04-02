@@ -12,19 +12,17 @@ import {
 
 import {run} from 'dockerfilelint'
 
-let diagnosticCollection: DiagnosticCollection
-
 const LANGUAGE_ID = 'dockerfile'
 
 export function activate(context: ExtensionContext) {
-  diagnosticCollection = languages.createDiagnosticCollection('dockerfilelint')
+  const diagnosticCollection = languages.createDiagnosticCollection('dockerfilelint')
 
-  workspace.textDocuments.forEach(lint)
+  workspace.textDocuments.forEach(document => lint(diagnosticCollection, document))
 
   context.subscriptions.push(
     workspace.onDidChangeTextDocument(event => {
       if (event.document.languageId === LANGUAGE_ID) {
-        lint(event.document)
+        lint(diagnosticCollection, event.document)
       }
     })
   )
@@ -32,7 +30,7 @@ export function activate(context: ExtensionContext) {
   context.subscriptions.push(
     workspace.onDidOpenTextDocument(event => {
       if (event.languageId === LANGUAGE_ID) {
-        lint(event)
+        lint(diagnosticCollection, event)
       }
     })
   )
@@ -46,7 +44,7 @@ export function activate(context: ExtensionContext) {
   )
 }
 
-function lint(document: TextDocument) {
+export function lint(diagnosticCollection: DiagnosticCollection, document: TextDocument) {
   const workspaceFolder = workspace.getWorkspaceFolder(document.uri)
   let workspaceBase = ''
   if (workspaceFolder && workspaceFolder.uri.scheme === 'file') {
