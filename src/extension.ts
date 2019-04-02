@@ -17,7 +17,7 @@ let diagnosticCollection: DiagnosticCollection
 const LANGUAGE_ID = 'dockerfile'
 
 export function activate(context: ExtensionContext) {
-  diagnosticCollection = languages.createDiagnosticCollection('dockerlint')
+  diagnosticCollection = languages.createDiagnosticCollection('dockerfilelint')
 
   workspace.textDocuments.forEach(lint)
 
