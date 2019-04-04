@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/vscode-dockerfilelint
+    docker:
+      - image: circleci/node:11-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-dependencies
+          command: yarn
+      - run:
+          name: test
+          command: yarn test
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+            - ./.vscode-test
