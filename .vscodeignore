@@ -6,6 +6,7 @@ node_modules/**
 src/**
 types/**
 .gitignore
+webpack.config.js
 **/tsconfig.json
 **/*.map
 **/*.ts
