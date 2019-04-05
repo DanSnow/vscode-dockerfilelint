@@ -1,6 +1,6 @@
 {
   "name": "vscode-dockerfilelint",
-  "displayName": "vscode-dockerfilelint",
+  "displayName": "dockerfilelint",
   "description": "",
   "version": "0.0.1",
   "engines": {
