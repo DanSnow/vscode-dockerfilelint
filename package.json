@@ -2,6 +2,7 @@
   "name": "vscode-dockerfilelint",
   "displayName": "dockerfilelint",
   "description": "Lint your Dockerfile with dockerfilelint",
+  "license": "MIT",
   "publisher": "DanSnow",
   "repository": {
     "type": "git",
