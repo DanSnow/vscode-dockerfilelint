@@ -1,7 +1,8 @@
 {
   "name": "vscode-dockerfilelint",
   "displayName": "dockerfilelint",
-  "description": "",
+  "description": "Lint your Dockerfile with dockerfilelint",
+  "publisher": "DanSnow",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.32.0"
