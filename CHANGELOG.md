@@ -1,9 +1,9 @@
-# Change Log
+0.0.2
+-----
 
-All notable changes to the "vscode-dockerlint" extension will be documented in this file.
+- Fix that it will lint non-Dockerfile when activating
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+0.0.1
+-----
 
-## [Unreleased]
-
-- Initial release
+Initial release
