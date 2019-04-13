@@ -21,19 +21,23 @@
   "main": "./dist/extension.js",
   "contributes": {},
   "scripts": {
-    "vscode:prepublish": "webpack --mode production",
+    "vscode:prepublish": "yarn run check-changelog && webpack --mode production",
     "compile": "webpack --mode none",
     "watch": "webpack --mode none --watch",
     "test-compile": "tsc -p ./",
     "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "yarn run compile &&yarn run test-compile && node ./node_modules/vscode/bin/test"
+    "test": "yarn run compile &&yarn run test-compile && node ./node_modules/vscode/bin/test",
+    "check-changelog": "ts-node scripts/check-changelog.ts",
+    "sync-changelog": "ts-node scripts/sync-changelog.ts"
   },
   "devDependencies": {
+    "@types/dedent": "^0.7.0",
     "@types/mocha": "^2.2.42",
     "@types/node": "^10.12.21",
     "@types/webpack": "^4.4.27",
     "@typescript-eslint/eslint-plugin": "^1.5.0",
     "@typescript-eslint/parser": "^1.5.0",
+    "dedent": "^0.7.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-config-standard": "^12.0.0",
@@ -42,6 +46,7 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
     "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
     "typescript": "^3.3.1",
     "vscode": "^1.1.28",
     "webpack": "^4.29.6",
