@@ -17,7 +17,9 @@ const LANGUAGE_ID = 'dockerfile'
 export function activate(context: ExtensionContext) {
   const diagnosticCollection = languages.createDiagnosticCollection('dockerfilelint')
 
-  workspace.textDocuments.forEach(document => lint(diagnosticCollection, document))
+  workspace.textDocuments
+    .filter(({languageId}) => languageId === LANGUAGE_ID)
+    .forEach(document => lint(diagnosticCollection, document))
 
   context.subscriptions.push(
     workspace.onDidChangeTextDocument(event => {
