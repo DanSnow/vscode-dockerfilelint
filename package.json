@@ -34,7 +34,7 @@
     "@types/dedent": "^0.7.0",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.9.8",
-    "@types/webpack": "^4.4.27",
+    "@types/webpack": "^4.41.10",
     "@typescript-eslint/eslint-plugin": "^1.5.0",
     "@typescript-eslint/parser": "^1.5.0",
     "dedent": "^0.7.0",
