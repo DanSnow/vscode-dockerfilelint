@@ -36,7 +36,7 @@
     "@types/node": "^13.11.0",
     "@types/webpack": "^4.41.10",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "dedent": "^0.7.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.10.1",
