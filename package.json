@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/dedent": "^0.7.0",
     "@types/mocha": "^7.0.2",
-    "@types/node": "^13.11.0",
+    "@types/node": "^13.13.4",
     "@types/webpack": "^4.41.10",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.27.0",
