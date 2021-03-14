@@ -1,9 +1,9 @@
-import {readmePath, updateReadme} from './sync-changelog'
-
 import assert from 'assert'
-import {promises} from 'fs'
+import { promises } from 'fs'
 
-const {readFile} = promises
+import { readmePath, updateReadme } from './sync-changelog'
+
+const { readFile } = promises
 
 async function main() {
   const currentContent = await readFile(readmePath, 'utf8')
