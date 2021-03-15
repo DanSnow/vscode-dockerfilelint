@@ -5201,7 +5201,7 @@ typescript@4.2.3:
     ts-node: 9.1.1
     typescript: 4.2.3
     vscode-test: 1.5.1
-    webpack: 5.25.0
+    webpack: 5.26.0
     webpack-cli: 4.5.0
   languageName: unknown
   linkType: soft
@@ -5285,9 +5285,9 @@ typescript@4.2.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.25.0":
-  version: 5.25.0
-  resolution: "webpack@npm:5.25.0"
+"webpack@npm:5.26.0":
+  version: 5.26.0
+  resolution: "webpack@npm:5.26.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.46
@@ -5317,7 +5317,7 @@ typescript@4.2.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: d80832dddef57b1f64647749ff1c78388ad875f7e9e63e614cee6b62da84853f6bb0150a50684ef7cdd4982adc5381994b44b166101dd68bed78d862bff7fab4
+  checksum: dcfa0ce0210512b4e769e645e2288963472c94ed02f7ddc5af1c0f9d36dd958eb2ab10029b9cfaf3c7cb8a601305c493a8b5c1107a14ac3999a1cd6a2f7dfd47
   languageName: node
   linkType: hard
 
