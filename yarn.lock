@@ -1560,10 +1560,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.14.44":
-  version: 14.14.44
-  resolution: "@types/node@npm:14.14.44"
-  checksum: 5c4db716325fc8a25b5b76b800acf0ff00c8fa1e7cfcb764fc79d79594939488cb9d2a756e188eb8e8a36da51e8e2be1ffe859be901b338779cb0aa12ad73b3a
+"@types/node@npm:14.17.2":
+  version: 14.17.2
+  resolution: "@types/node@npm:14.17.2"
+  checksum: 7a2e90989ce2948d3cdfc1d15fb5f0439ea53971d81a466ad049922bb23ef38252f6639271ae5899670ab93d48ed62542ad687767e45ffa6fe902ce59f518e5b
   languageName: node
   linkType: hard
 
@@ -5416,7 +5416,7 @@ typescript@4.2.4:
     "@babel/preset-typescript": 7.13.0
     "@babel/register": 7.13.16
     "@types/dedent": 0.7.0
-    "@types/node": 14.14.44
+    "@types/node": 14.17.2
     "@types/tape": 4.13.0
     "@types/vscode": 1.55.0
     "@types/webpack": 5.28.0
