@@ -1648,10 +1648,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-env@npm:1.16.0":
-  version: 1.16.0
-  resolution: "@types/webpack-env@npm:1.16.0"
-  checksum: eaf62fb65ba18737174a520a444bb7407e5a6f32581690c5a7a687e6f86e9d4ce336fd9e79989aafa19e5f390046ad54b9100cd3d70a43dcf0ab0161d30cd5bd
+"@types/webpack-env@npm:1.16.2":
+  version: 1.16.2
+  resolution: "@types/webpack-env@npm:1.16.2"
+  checksum: ae77ca15de6d2c578a4870f2274d1ec93d900a20347ae821f9d0f6a391af7e8ac69a6e99100edd4f2f665d0cf474eea0967ac29bf0bcedf4cf3738f439f46918
   languageName: node
   linkType: hard
 
@@ -5723,7 +5723,7 @@ typescript@4.3.4:
     "@types/tape": 4.13.0
     "@types/vscode": 1.57.0
     "@types/webpack": 5.28.0
-    "@types/webpack-env": 1.16.0
+    "@types/webpack-env": 1.16.2
     "@typescript-eslint/eslint-plugin": 4.28.1
     "@typescript-eslint/parser": 4.28.1
     babel-loader: 8.2.2
