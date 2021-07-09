@@ -1659,10 +1659,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/vscode@npm:1.57.1":
-  version: 1.57.1
-  resolution: "@types/vscode@npm:1.57.1"
-  checksum: cb836f7e431c113126a4438a43ffcb97ffee235b3d08584863079181ac0a8e288e4c64038b443ab61beea668f5777676881c8a82e3437fb4b9d1a49c26625cf8
+"@types/vscode@npm:1.58.0":
+  version: 1.58.0
+  resolution: "@types/vscode@npm:1.58.0"
+  checksum: 0b5d3d0b4286ff61630fc150e8402555de785db3476e01ff627f221e87c221922384d7db5213fccb3dec5f16b4ec220ad938cae73b4fce19fe2bca08082ac8c6
   languageName: node
   linkType: hard
 
@@ -5740,7 +5740,7 @@ typescript@4.3.5:
     "@types/dedent": 0.7.0
     "@types/node": 14.17.4
     "@types/tape": 4.13.1
-    "@types/vscode": 1.57.1
+    "@types/vscode": 1.58.0
     "@types/webpack": 5.28.0
     "@types/webpack-env": 1.16.2
     "@typescript-eslint/eslint-plugin": 4.28.1
