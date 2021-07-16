@@ -5143,6 +5143,17 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"schema-utils@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "schema-utils@npm:3.1.0"
+  dependencies:
+    "@types/json-schema": ^7.0.7
+    ajv: ^6.12.5
+    ajv-keywords: ^3.5.2
+  checksum: 804b78a4d212eff70e072263ef241a5ef5b26684a1a9d2611879bb3fa8497637f3a0e8212053b4bf6e9d7ab8b12a1c98ad0fe8db23497e6a057579db8ded8313
+  languageName: node
+  linkType: hard
+
 "semver@npm:2 || 3 || 4 || 5, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
@@ -5913,7 +5924,7 @@ typescript@4.3.5:
     ts-node: 10.1.0
     typescript: 4.3.5
     vscode-test: 1.5.2
-    webpack: 5.44.0
+    webpack: 5.45.1
     webpack-cli: 4.7.2
   languageName: unknown
   linkType: soft
@@ -6014,9 +6025,9 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.44.0":
-  version: 5.44.0
-  resolution: "webpack@npm:5.44.0"
+"webpack@npm:5.45.1":
+  version: 5.45.1
+  resolution: "webpack@npm:5.45.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -6036,7 +6047,7 @@ typescript@4.3.5:
     loader-runner: ^4.2.0
     mime-types: ^2.1.27
     neo-async: ^2.6.2
-    schema-utils: ^3.0.0
+    schema-utils: ^3.1.0
     tapable: ^2.1.1
     terser-webpack-plugin: ^5.1.3
     watchpack: ^2.2.0
@@ -6046,7 +6057,7 @@ typescript@4.3.5:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 541ee0607b143ccaf319cce5de1dd0faf527c0f432e6a95f992d73ae8c1b1187474c1e8ced43472525e2c7037cba19be96d75d7b1804644671501d0f2096bf28
+  checksum: f25a1c1db231d5a0773af2d8fa312e8915c9592ddae708c058be9abaa483d21051955fab69859671bd104ac49d3c21b74086cd258b4057477b5d017cd697cf87
   languageName: node
   linkType: hard
 
