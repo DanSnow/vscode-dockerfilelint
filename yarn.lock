@@ -3700,6 +3700,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-package-type@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "get-package-type@npm:0.1.0"
+  checksum: a5b8beaf68d8bcdb507e23b3d2b6458e54b9061e84e2a8a94b846c8e1d794beb47fdcbda895da16ae59225bb3ea1608c0719e4f986e8a987ec2f228eaf00d78b
+  languageName: node
+  linkType: hard
+
 "get-stream@npm:^6.0.0":
   version: 6.0.0
   resolution: "get-stream@npm:6.0.0"
@@ -3723,7 +3730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.1.3, glob@npm:^7.1.6":
+"glob@npm:^7.1.3":
   version: 7.1.6
   resolution: "glob@npm:7.1.6"
   dependencies:
@@ -3734,6 +3741,20 @@ __metadata:
     once: ^1.3.0
     path-is-absolute: ^1.0.0
   checksum: 789977b52432865bd63846da5c75a6efc2c56abdc0cb5ffcdb8e91eeb67a58fa5594c1195d18b2b4aff99675b0739ed6bd61024b26562e0cca18c8f993efdc82
+  languageName: node
+  linkType: hard
+
+"glob@npm:^7.1.7":
+  version: 7.1.7
+  resolution: "glob@npm:7.1.7"
+  dependencies:
+    fs.realpath: ^1.0.0
+    inflight: ^1.0.4
+    inherits: 2
+    minimatch: ^3.0.4
+    once: ^1.3.0
+    path-is-absolute: ^1.0.0
+  checksum: 352f74f08247db5420161a2f68f2bd84b53228b5fcfc9dcc37cd54d3f19ec0232495d84aeff1286d0727059e9fdc1031400e00b971bdc59e30f8f82b199c9d02
   languageName: node
   linkType: hard
 
@@ -3787,6 +3808,15 @@ __metadata:
   version: 1.0.1
   resolution: "has-bigints@npm:1.0.1"
   checksum: 1074b644f5f2c319fc31af00fe2f81b6e21e204bb46da70ff7b970fe65c56f504e697fe6b41823ba679bd4111840482a83327d3432b8d670a684da4087ed074b
+  languageName: node
+  linkType: hard
+
+"has-dynamic-import@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "has-dynamic-import@npm:2.0.0"
+  dependencies:
+    call-bind: ^1.0.2
+  checksum: 93e91d33c951211ea90d64b89c1f4c29af927cd6db29135866350ad2b924a2ec081db43a7bb5467cc20455366c414edda430a509a6985ecc3cacf02035536780
   languageName: node
   linkType: hard
 
@@ -4598,6 +4628,13 @@ __metadata:
   version: 1.10.3
   resolution: "object-inspect@npm:1.10.3"
   checksum: f5d21d86dbedf7224f5e2bee8235beb1e94a419443102ae0d6c17603ace26b930de584ece5695ae6c338ec996656477d5ca425b1f8770b4aa3340aa3d188aa9a
+  languageName: node
+  linkType: hard
+
+"object-inspect@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "object-inspect@npm:1.11.0"
+  checksum: 7890688465619b0947d4370c82d7454cbca855012facb0e1083eb9c44f35718a3479f06887a0acf72b1f181930151a465e899bc16127f7d8c5fb2eee0c61c093
   languageName: node
   linkType: hard
 
@@ -5659,21 +5696,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tape@npm:5.2.2":
-  version: 5.2.2
-  resolution: "tape@npm:5.2.2"
+"tape@npm:5.3.0":
+  version: 5.3.0
+  resolution: "tape@npm:5.3.0"
   dependencies:
     call-bind: ^1.0.2
     deep-equal: ^2.0.5
     defined: ^1.0.0
     dotignore: ^0.1.2
     for-each: ^0.3.3
-    glob: ^7.1.6
+    get-package-type: ^0.1.0
+    glob: ^7.1.7
     has: ^1.0.3
+    has-dynamic-import: ^2.0.0
     inherits: ^2.0.4
-    is-regex: ^1.1.2
+    is-regex: ^1.1.3
     minimist: ^1.2.5
-    object-inspect: ^1.9.0
+    object-inspect: ^1.11.0
     object-is: ^1.1.5
     object.assign: ^4.1.2
     resolve: ^2.0.0-next.3
@@ -5682,7 +5721,7 @@ resolve@^2.0.0-next.3:
     through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: d14aada91043616ed324950057aa82f9046f759714d571b374364c18338a4e3454cac616bf9ff335e8f31983ce331b9b3b0ee2fecb8ceb1ed57c56e44a0e3f62
+  checksum: 457e2249246b411b99a4beeb99044bb4ed10da1ce1fe1ec7998903aac81bbf1810da48198240da6a59dd1109e4252ae154105518c2694e3c8ce333ca5056a6e4
   languageName: node
   linkType: hard
 
@@ -6016,7 +6055,7 @@ typescript@4.3.5:
     eslint-plugin-promise: 5.1.0
     eslint-plugin-simple-import-sort: 7.0.0
     prettier: 2.3.2
-    tape: 5.2.2
+    tape: 5.3.0
     ts-node: 10.1.0
     typescript: 4.3.5
     vscode-test: 1.5.2
