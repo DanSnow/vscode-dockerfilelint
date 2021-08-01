@@ -6020,7 +6020,7 @@ typescript@4.3.5:
     ts-node: 10.1.0
     typescript: 4.3.5
     vscode-test: 1.5.2
-    webpack: 5.45.1
+    webpack: 5.47.1
     webpack-cli: 4.7.2
   languageName: unknown
   linkType: soft
@@ -6111,19 +6111,16 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "webpack-sources@npm:2.3.0"
-  dependencies:
-    source-list-map: ^2.0.1
-    source-map: ^0.6.1
-  checksum: b929133f8b86fa91a42d2e557f2b2cd6136f62a50c10e32db9f37a63609cd4d1b3475772503c814baa2e25c02d3206110ec2add7a3aaf2794217fbf48664e72a
+"webpack-sources@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "webpack-sources@npm:3.1.1"
+  checksum: f3af6be4024bfd6fd07e16bbdf771d3875ef3f391a574ae26f311e949ed216848c3718268250809a892f450c486731ca0e722a157deb2d535fc92dc5f223f293
   languageName: node
   linkType: hard
 
-"webpack@npm:5.45.1":
-  version: 5.45.1
-  resolution: "webpack@npm:5.45.1"
+"webpack@npm:5.47.1":
+  version: 5.47.1
+  resolution: "webpack@npm:5.47.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -6147,13 +6144,13 @@ typescript@4.3.5:
     tapable: ^2.1.1
     terser-webpack-plugin: ^5.1.3
     watchpack: ^2.2.0
-    webpack-sources: ^2.3.0
+    webpack-sources: ^3.1.1
   peerDependenciesMeta:
     webpack-cli:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: f25a1c1db231d5a0773af2d8fa312e8915c9592ddae708c058be9abaa483d21051955fab69859671bd104ac49d3c21b74086cd258b4057477b5d017cd697cf87
+  checksum: a2769fc632f21f81a147d9f6224ba00c3807e19c9a307587f0f8e52de07d07bbbcb299f4343056e8a6b1bc214ca303ef9ad712c5d513245fcfdf0bfb6dca5a5a
   languageName: node
   linkType: hard
 
