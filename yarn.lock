@@ -1834,12 +1834,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:4.13.1":
-  version: 4.13.1
-  resolution: "@types/tape@npm:4.13.1"
+"@types/tape@npm:4.13.2":
+  version: 4.13.2
+  resolution: "@types/tape@npm:4.13.2"
   dependencies:
     "@types/node": "*"
-  checksum: 16e1a8fc3843a01fd7ee35ab933ef38a1a4d874c19d378772c064692671d0ba340c69b6148a50dda1ad3e6784f94c14b8e5d67dd901e8589520fc4a471cf83d4
+  checksum: 5a695aa59fca78768c34af074b82f97f40fa050fb32672169ed26c1c0d0e6c8662c19aefc2bba309238a79911134a6067efda12b47e22b20e7bbfc20d5cc3780
   languageName: node
   linkType: hard
 
@@ -6143,7 +6143,7 @@ typescript@4.3.5:
     "@babel/register": 7.14.5
     "@types/dedent": 0.7.0
     "@types/node": 14.17.9
-    "@types/tape": 4.13.1
+    "@types/tape": 4.13.2
     "@types/vscode": 1.59.0
     "@types/webpack": 5.28.0
     "@types/webpack-env": 1.16.2
