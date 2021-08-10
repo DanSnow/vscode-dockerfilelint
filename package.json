@@ -54,7 +54,7 @@
     "eslint-plugin-simple-import-sort": "7.0.0",
     "prettier": "2.3.2",
     "tape": "5.3.1",
-    "ts-node": "10.1.0",
+    "ts-node": "10.2.0",
     "typescript": "4.3.5",
     "vscode-test": "1.6.1",
     "webpack": "5.49.0",
