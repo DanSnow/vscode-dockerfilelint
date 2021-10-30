@@ -29,10 +29,10 @@
     "sync-changelog": "ts-node scripts/sync-changelog.ts"
   },
   "devDependencies": {
-    "@babel/core": "7.15.8",
-    "@babel/preset-env": "7.15.8",
-    "@babel/preset-typescript": "7.15.0",
-    "@babel/register": "7.15.3",
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.0",
+    "@babel/preset-typescript": "7.16.0",
+    "@babel/register": "7.16.0",
     "@types/dedent": "0.7.0",
     "@types/node": "14.17.32",
     "@types/tape": "4.13.2",
