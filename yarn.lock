@@ -3745,12 +3745,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"has-dynamic-import@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "has-dynamic-import@npm:2.0.0"
+"has-dynamic-import@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "has-dynamic-import@npm:2.0.1"
   dependencies:
     call-bind: ^1.0.2
-  checksum: a0a968593334eebbaeb4469f9f4050bbdda01727a772633b30a46b4fedc8f3622a448f898d3cca9ac2e78f5a84a31d41a8c2e6bbbe7afb15c5bc4787bc307e0d
+    get-intrinsic: ^1.1.1
+  checksum: 1cb60255cdd354a5f53997dd4c8ae0f821706ced3d1047bb810cb74400f28988b08d4d986318cb6610b79e6b9993a6592e678b6cef3ef0b71ab553eaa99b9c4d
   languageName: node
   linkType: hard
 
@@ -4540,6 +4541,13 @@ __metadata:
   version: 1.11.0
   resolution: "object-inspect@npm:1.11.0"
   checksum: 8c64f89ce3a7b96b6925879ad5f6af71d498abc217e136660efecd97452991216f375a7eb47cb1cb50643df939bf0c7cc391567b7abc6a924d04679705e58e27
+  languageName: node
+  linkType: hard
+
+"object-inspect@npm:^1.12.0":
+  version: 1.12.0
+  resolution: "object-inspect@npm:1.12.0"
+  checksum: 2b36d4001a9c921c6b342e2965734519c9c58c355822243c3207fbf0aac271f8d44d30d2d570d450b2cc6f0f00b72bcdba515c37827d2560e5f22b1899a31cf4
   languageName: node
   linkType: hard
 
@@ -5437,9 +5445,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tape@npm:5.3.2":
-  version: 5.3.2
-  resolution: "tape@npm:5.3.2"
+"tape@npm:5.4.0":
+  version: 5.4.0
+  resolution: "tape@npm:5.4.0"
   dependencies:
     call-bind: ^1.0.2
     deep-equal: ^2.0.5
@@ -5449,11 +5457,11 @@ resolve@^2.0.0-next.3:
     get-package-type: ^0.1.0
     glob: ^7.2.0
     has: ^1.0.3
-    has-dynamic-import: ^2.0.0
+    has-dynamic-import: ^2.0.1
     inherits: ^2.0.4
     is-regex: ^1.1.4
     minimist: ^1.2.5
-    object-inspect: ^1.11.0
+    object-inspect: ^1.12.0
     object-is: ^1.1.5
     object.assign: ^4.1.2
     resolve: ^2.0.0-next.3
@@ -5462,7 +5470,7 @@ resolve@^2.0.0-next.3:
     through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: 416bf3e47d00720e6b679bd527128d22a034a506858640c6f5369681215751252ca239f0abef0bd12537256208a0b3025384966ac514946dca3c70a84e12d25f
+  checksum: 16e5aab0d553c253ea22d197fd57ab8cb643bda41a24ead6fc8b2d057594e76f5b99ea286d6ed5307ecc0565615944d99f45f60a43c85c645c12a288b493d615
   languageName: node
   linkType: hard
 
@@ -5747,7 +5755,7 @@ resolve@^2.0.0-next.3:
     eslint-plugin-promise: 5.2.0
     eslint-plugin-simple-import-sort: 7.0.0
     prettier: 2.5.1
-    tape: 5.3.2
+    tape: 5.4.0
     ts-node: 10.4.0
     typescript: 4.5.4
     vscode-test: 1.6.1
