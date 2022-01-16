@@ -2283,6 +2283,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"array.prototype.every@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "array.prototype.every@npm:1.1.3"
+  dependencies:
+    call-bind: ^1.0.2
+    define-properties: ^1.1.3
+    es-abstract: ^1.19.0
+    is-string: ^1.0.7
+  checksum: bbcc864ac1271307043a16262455a6f917d183060a7e5b99c7c710ee611d40c1065f4ec674323b50cf8b987f2d0c9ca9e9ff9cbf4bcc7740f82e731ec2a58d6f
+  languageName: node
+  linkType: hard
+
 "array.prototype.flat@npm:^1.2.5":
   version: 1.2.5
   resolution: "array.prototype.flat@npm:1.2.5"
@@ -5443,10 +5455,11 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tape@npm:5.4.0":
-  version: 5.4.0
-  resolution: "tape@npm:5.4.0"
+"tape@npm:5.4.1":
+  version: 5.4.1
+  resolution: "tape@npm:5.4.1"
   dependencies:
+    array.prototype.every: ^1.1.3
     call-bind: ^1.0.2
     deep-equal: ^2.0.5
     defined: ^1.0.0
@@ -5461,6 +5474,7 @@ resolve@^2.0.0-next.3:
     minimist: ^1.2.5
     object-inspect: ^1.12.0
     object-is: ^1.1.5
+    object-keys: ^1.1.1
     object.assign: ^4.1.2
     resolve: ^2.0.0-next.3
     resumer: ^0.0.0
@@ -5468,7 +5482,7 @@ resolve@^2.0.0-next.3:
     through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: 16e5aab0d553c253ea22d197fd57ab8cb643bda41a24ead6fc8b2d057594e76f5b99ea286d6ed5307ecc0565615944d99f45f60a43c85c645c12a288b493d615
+  checksum: 7c8e0d73b38d9c795e0aace3252406e2dbf2c7f7352809038cbda7c00cb79c11ce83ac7c5253c5f912c916e420418ef8efb4d4ad813661fd1c8c91d3c092d55c
   languageName: node
   linkType: hard
 
@@ -5753,7 +5767,7 @@ resolve@^2.0.0-next.3:
     eslint-plugin-promise: 6.0.0
     eslint-plugin-simple-import-sort: 7.0.0
     prettier: 2.5.1
-    tape: 5.4.0
+    tape: 5.4.1
     ts-node: 10.4.0
     typescript: 4.5.4
     vscode-test: 1.6.1
