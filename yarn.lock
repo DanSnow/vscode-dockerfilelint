@@ -5508,9 +5508,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tape@npm:5.4.1":
-  version: 5.4.1
-  resolution: "tape@npm:5.4.1"
+"tape@npm:5.5.0":
+  version: 5.5.0
+  resolution: "tape@npm:5.5.0"
   dependencies:
     array.prototype.every: ^1.1.3
     call-bind: ^1.0.2
@@ -5535,7 +5535,7 @@ resolve@^2.0.0-next.3:
     through: ^2.3.8
   bin:
     tape: bin/tape
-  checksum: 7c8e0d73b38d9c795e0aace3252406e2dbf2c7f7352809038cbda7c00cb79c11ce83ac7c5253c5f912c916e420418ef8efb4d4ad813661fd1c8c91d3c092d55c
+  checksum: 53b2c5f6de87036b18230d7b25ea4c05037d807086d814b8c9d8ff5377e4e0a74510e2cd6018774f7c82c731b51638cf334486d9bd50a30b15f534f382400af3
   languageName: node
   linkType: hard
 
@@ -5820,7 +5820,7 @@ resolve@^2.0.0-next.3:
     eslint-plugin-promise: 6.0.0
     eslint-plugin-simple-import-sort: 7.0.0
     prettier: 2.5.1
-    tape: 5.4.1
+    tape: 5.5.0
     ts-node: 10.4.0
     typescript: 4.5.5
     vscode-test: 1.6.1
