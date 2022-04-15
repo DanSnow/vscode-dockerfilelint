@@ -38,7 +38,7 @@
     "@types/tape": "4.13.2",
     "@types/vscode": "1.66.0",
     "@types/webpack": "5.28.0",
-    "@types/webpack-env": "1.16.3",
+    "@types/webpack-env": "1.16.4",
     "@typescript-eslint/eslint-plugin": "5.19.0",
     "@typescript-eslint/parser": "5.19.0",
     "babel-loader": "8.2.4",
