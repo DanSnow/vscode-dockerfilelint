@@ -34,7 +34,7 @@
     "@babel/preset-typescript": "7.18.6",
     "@babel/register": "7.18.9",
     "@types/dedent": "0.7.0",
-    "@types/node": "16.11.51",
+    "@types/node": "16.11.52",
     "@types/tape": "4.13.2",
     "@types/vscode": "1.70.0",
     "@types/webpack": "5.28.0",
