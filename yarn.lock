@@ -2239,10 +2239,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dedent@npm:0.7.0":
-  version: 0.7.0
-  resolution: "@types/dedent@npm:0.7.0"
-  checksum: b9b7f0c42d99da764be75dd00b2f2be162f5a0ca43aafe0c740efa76b5f37f8a4f4e2ccc84883054e06e05c1169733aa8ee7750da0334c9cba26d9e10ae844f1
+"@types/dedent@npm:0.7.2":
+  version: 0.7.2
+  resolution: "@types/dedent@npm:0.7.2"
+  checksum: 7c62900a4871ebc6ba19da77ad2e125a027c8f19516521004f5123f3bc22d129753b9251d22dee9bc748c1e7783cb7e86d496023b96971c94189b9d52e151876
   languageName: node
   linkType: hard
 
@@ -6775,7 +6775,7 @@ __metadata:
     "@babel/preset-env": 7.21.5
     "@babel/preset-typescript": 7.21.5
     "@babel/register": 7.21.0
-    "@types/dedent": 0.7.0
+    "@types/dedent": 0.7.2
     "@types/node": 18.16.3
     "@types/tape": 4.13.4
     "@types/vscode": 1.77.0
