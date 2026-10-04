@@ -1438,7 +1438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25, @jridgewell/trace-mapping@npm:^0.3.28":
+"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25, @jridgewell/trace-mapping@npm:^0.3.28, @jridgewell/trace-mapping@npm:^0.3.31":
   version: 0.3.31
   resolution: "@jridgewell/trace-mapping@npm:0.3.31"
   dependencies:
@@ -1564,16 +1564,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-scope@npm:^3.7.7":
-  version: 3.7.7
-  resolution: "@types/eslint-scope@npm:3.7.7"
-  dependencies:
-    "@types/eslint": "*"
-    "@types/estree": "*"
-  checksum: e2889a124aaab0b89af1bab5959847c5bec09809209255de0e63b9f54c629a94781daa04adb66bffcdd742f5e25a17614fb933965093c0eea64aacda4309380e
-  languageName: node
-  linkType: hard
-
 "@types/eslint@npm:*":
   version: 7.2.7
   resolution: "@types/eslint@npm:7.2.7"
@@ -1675,14 +1665,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:5.28.1":
-  version: 5.28.1
-  resolution: "@types/webpack@npm:5.28.1"
+"@types/webpack@npm:5.28.5":
+  version: 5.28.5
+  resolution: "@types/webpack@npm:5.28.5"
   dependencies:
     "@types/node": "*"
     tapable: ^2.2.0
     webpack: ^5
-  checksum: 9f9bfe041382acfab36015f95011f6539705ba116fd9b3b8d7599a6396d996b7efcdb71947dba6d24a1a1bf397d15fdfb3c50d2f73e0aa5366a76198d5ec98b3
+  checksum: 14359d9ccecef7ef1ea271c00baec5337213c7fda63a34c61b9e519505b3928d0807cdbb5b1172d1994e1179920b89c57eaf2cbf64599958b67cd70720ac2a9b
   languageName: node
   linkType: hard
 
@@ -2169,15 +2159,6 @@ __metadata:
   peerDependencies:
     acorn: ^8
   checksum: 5c4cf7c850102ba7ae0eeae0deb40fb3158c8ca5ff15c0bca43b5c47e307a1de3d8ef761788f881343680ea374631ae9e9615ba8876fee5268dbe068c98bcba6
-  languageName: node
-  linkType: hard
-
-"acorn-import-phases@npm:^1.0.3":
-  version: 1.0.4
-  resolution: "acorn-import-phases@npm:1.0.4"
-  peerDependencies:
-    acorn: ^8.14.0
-  checksum: e669cccfb6711af305150fcbfddcf4485fffdc4547a0ecabebe94103b47124cc02bfd186240061c00ac954cfb0461b4ecc3e203e138e43042b7af32063fa9510
   languageName: node
   linkType: hard
 
@@ -3194,7 +3175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.17.4":
+"enhanced-resolve@npm:^5.25.0":
   version: 5.26.0
   resolution: "enhanced-resolve@npm:5.26.0"
   dependencies:
@@ -3404,7 +3385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^2.0.0":
+"es-module-lexer@npm:^2.1.0":
   version: 2.3.2
   resolution: "es-module-lexer@npm:2.3.2"
   checksum: 4f8c2b36c185afab4eab102d3e75284521688388e42a6dac830e62e5d7b53b8a33880e36e8e86b4ca880e5f5eed7e69d038f8ae2550f4ce9af28e4e156040814
@@ -5100,13 +5081,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-parse-even-better-errors@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "json-parse-even-better-errors@npm:2.3.1"
-  checksum: 798ed4cf3354a2d9ccd78e86d2169515a0097a5c133337807cdf7f1fc32e1391d207ccfc276518cc1d7d8d4db93288b8a50ba4293d212ad1336e52a8ec0a941f
-  languageName: node
-  linkType: hard
-
 "json-schema-traverse@npm:^0.4.1":
   version: 0.4.1
   resolution: "json-schema-traverse@npm:0.4.1"
@@ -5176,13 +5150,6 @@ __metadata:
   version: 4.2.0
   resolution: "loader-runner@npm:4.2.0"
   checksum: e61aea8b6904b8af53d9de6f0484da86c462c0001f4511bedc837cec63deb9475cea813db62f702cd7930420ccb0e75c78112270ca5c8b61b374294f53c0cb3a
-  languageName: node
-  linkType: hard
-
-"loader-runner@npm:^4.3.1":
-  version: 4.3.2
-  resolution: "loader-runner@npm:4.3.2"
-  checksum: 92906b3d187999f49f6b22c4ee49261f9a38cd8ce00051e511b804fbac7d4533a48c7c5c1e051818c44e6bbfb11e6fbc3941f1d245155fd5debc50b2b5867215
   languageName: node
   linkType: hard
 
@@ -5317,6 +5284,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime-db@npm:^1.54.0":
+  version: 1.54.0
+  resolution: "mime-db@npm:1.54.0"
+  checksum: e99aaf2f23f5bd607deb08c83faba5dd25cf2fec90a7cc5b92d8260867ee08dab65312e1a589e60093dc7796d41e5fae013268418482f1db4c7d52d0a0960ac9
+  languageName: node
+  linkType: hard
+
 "mime-types@npm:^2.1.27":
   version: 2.1.34
   resolution: "mime-types@npm:2.1.34"
@@ -5346,6 +5320,53 @@ __metadata:
   version: 1.2.8
   resolution: "minimist@npm:1.2.8"
   checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
+  languageName: node
+  linkType: hard
+
+"minimizer-webpack-plugin@npm:^5.7.0":
+  version: 5.13.0
+  resolution: "minimizer-webpack-plugin@npm:5.13.0"
+  dependencies:
+    "@jridgewell/trace-mapping": ^0.3.31
+    jest-worker: ^27.4.5
+    schema-utils: ^4.3.3
+    terser: ^5.51.0
+  peerDependencies:
+    webpack: ^5.1.0
+  peerDependenciesMeta:
+    "@minify-html/node":
+      optional: true
+    "@napi-rs/image":
+      optional: true
+    "@swc/core":
+      optional: true
+    "@swc/css":
+      optional: true
+    "@swc/html":
+      optional: true
+    clean-css:
+      optional: true
+    cssnano:
+      optional: true
+    csso:
+      optional: true
+    esbuild:
+      optional: true
+    html-minifier-terser:
+      optional: true
+    imagemin:
+      optional: true
+    lightningcss:
+      optional: true
+    postcss:
+      optional: true
+    sharp:
+      optional: true
+    svgo:
+      optional: true
+    uglify-js:
+      optional: true
+  checksum: 68a35bfa14831a3f57a578c7e97752a4d70f79bc8952fa3bea7d84a9fb34fb4c780a78b8146fb77d433d8863089f868cffad1999b85cde79406c3c9246e8b777
   languageName: node
   linkType: hard
 
@@ -6293,7 +6314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^4.3.0, schema-utils@npm:^4.3.3":
+"schema-utils@npm:^4.3.3, schema-utils@npm:^4.5.0":
   version: 4.5.0
   resolution: "schema-utils@npm:4.5.0"
   dependencies:
@@ -6821,46 +6842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.3.16":
-  version: 5.6.1
-  resolution: "terser-webpack-plugin@npm:5.6.1"
-  dependencies:
-    "@jridgewell/trace-mapping": ^0.3.25
-    jest-worker: ^27.4.5
-    schema-utils: ^4.3.0
-    terser: ^5.31.1
-  peerDependencies:
-    webpack: ^5.1.0
-  peerDependenciesMeta:
-    "@minify-html/node":
-      optional: true
-    "@swc/core":
-      optional: true
-    "@swc/css":
-      optional: true
-    "@swc/html":
-      optional: true
-    clean-css:
-      optional: true
-    cssnano:
-      optional: true
-    csso:
-      optional: true
-    esbuild:
-      optional: true
-    html-minifier-terser:
-      optional: true
-    lightningcss:
-      optional: true
-    postcss:
-      optional: true
-    uglify-js:
-      optional: true
-  checksum: b596093d667af8c7c89c2a65d93090f37cf58ebcfb5c86429ad1c6d9dba05857b572659c17900cafc25888613ac4c391a4c20d27b4c8b5dcdbcdf32e0f1ee8fc
-  languageName: node
-  linkType: hard
-
-"terser@npm:^5.31.1":
+"terser@npm:^5.51.0":
   version: 5.51.2
   resolution: "terser@npm:5.51.2"
   dependencies:
@@ -7240,7 +7222,7 @@ __metadata:
     "@types/node": 18.19.130
     "@types/tape": 4.13.4
     "@types/vscode": 1.140.0
-    "@types/webpack": 5.28.1
+    "@types/webpack": 5.28.5
     "@types/webpack-env": 1.18.8
     "@typescript-eslint/eslint-plugin": 5.59.2
     "@typescript-eslint/parser": 5.59.2
@@ -7261,7 +7243,7 @@ __metadata:
     ts-node: 10.9.2
     typescript: 4.9.5
     vscode-test: 1.6.1
-    webpack: 5.104.1
+    webpack: 5.111.1
     webpack-cli: 4.10.0
   languageName: unknown
   linkType: soft
@@ -7288,7 +7270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"watchpack@npm:^2.4.4":
+"watchpack@npm:^2.5.2":
   version: 2.5.2
   resolution: "watchpack@npm:2.5.2"
   dependencies:
@@ -7347,48 +7329,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^3.3.3":
+"webpack-sources@npm:^3.5.1":
   version: 3.6.0
   resolution: "webpack-sources@npm:3.6.0"
   checksum: bf42251f35ccff1ed0fe6516716e6e55560fc6bd95b5f804d5e1f18d40b5b9d66ccf1c28bc3436ff2f40019728552b168fce8293e8f20b40a877f15b999143cd
   languageName: node
   linkType: hard
 
-"webpack@npm:5.104.1":
-  version: 5.104.1
-  resolution: "webpack@npm:5.104.1"
+"webpack@npm:5.111.1":
+  version: 5.111.1
+  resolution: "webpack@npm:5.111.1"
   dependencies:
-    "@types/eslint-scope": ^3.7.7
     "@types/estree": ^1.0.8
     "@types/json-schema": ^7.0.15
     "@webassemblyjs/ast": ^1.14.1
     "@webassemblyjs/wasm-edit": ^1.14.1
     "@webassemblyjs/wasm-parser": ^1.14.1
-    acorn: ^8.15.0
-    acorn-import-phases: ^1.0.3
     browserslist: ^4.28.1
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.17.4
-    es-module-lexer: ^2.0.0
-    eslint-scope: 5.1.1
+    enhanced-resolve: ^5.25.0
+    es-module-lexer: ^2.1.0
     events: ^3.2.0
-    glob-to-regexp: ^0.4.1
     graceful-fs: ^4.2.11
-    json-parse-even-better-errors: ^2.3.1
-    loader-runner: ^4.3.1
-    mime-types: ^2.1.27
-    neo-async: ^2.6.2
-    schema-utils: ^4.3.3
+    mime-db: ^1.54.0
+    minimizer-webpack-plugin: ^5.7.0
+    schema-utils: ^4.5.0
     tapable: ^2.3.0
-    terser-webpack-plugin: ^5.3.16
-    watchpack: ^2.4.4
-    webpack-sources: ^3.3.3
+    watchpack: ^2.5.2
+    webpack-sources: ^3.5.1
   peerDependenciesMeta:
     webpack-cli:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 4d187c246da5c03215a9a583682d1b8972fa0c5a446ba479d63507fe2d844dacf88a46ff7f3133dba22f07f1482f866b14e84c509c0f371ae7ad9316cad83fcb
+  checksum: de2eb36c0b29b131bb660ba29a5eb9ddefda1329927e3d4d461497890646e286fa63572acbddc3db138d499d7dc7a8ecf4341b60b9b4ff2609aba3c1ee4299b2
   languageName: node
   linkType: hard
 
