@@ -43,7 +43,7 @@
     "@typescript-eslint/parser": "5.62.0",
     "babel-loader": "9.2.1",
     "dedent": "0.7.0",
-    "eslint": "8.57.1",
+    "eslint": "10.12.0",
     "eslint-config-prettier": "8.10.2",
     "eslint-config-standard": "17.1.0",
     "eslint-import-resolver-node": "0.4.0",
