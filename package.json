@@ -41,7 +41,7 @@
     "@types/webpack-env": "1.18.8",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
-    "babel-loader": "9.2.1",
+    "babel-loader": "10.1.1",
     "dedent": "0.7.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "8.10.2",
