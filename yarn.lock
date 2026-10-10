@@ -1554,10 +1554,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dedent@npm:0.7.2":
-  version: 0.7.2
-  resolution: "@types/dedent@npm:0.7.2"
-  checksum: 7c62900a4871ebc6ba19da77ad2e125a027c8f19516521004f5123f3bc22d129753b9251d22dee9bc748c1e7783cb7e86d496023b96971c94189b9d52e151876
+"@types/dedent@npm:1.7.2":
+  version: 1.7.2
+  resolution: "@types/dedent@npm:1.7.2"
+  dependencies:
+    dedent: "*"
+  checksum: c55c08fc8b803d21a40a6ccea8c7fe6a4fbfff7ea00c6209606558d198aa0efb730e57978e4859fe8def0af4762cf066110b8193aa8f8d7346118ddf75f33638
   languageName: node
   linkType: hard
 
@@ -3000,10 +3002,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dedent@npm:0.7.0":
-  version: 0.7.0
-  resolution: "dedent@npm:0.7.0"
-  checksum: 87de191050d9a40dd70cad01159a0bcf05ecb59750951242070b6abf9569088684880d00ba92a955b4058804f16eeaf91d604f283929b4f614d181cd7ae633d2
+"dedent@npm:*, dedent@npm:1.7.2":
+  version: 1.7.2
+  resolution: "dedent@npm:1.7.2"
+  peerDependencies:
+    babel-plugin-macros: ^3.1.0
+  peerDependenciesMeta:
+    babel-plugin-macros:
+      optional: true
+  checksum: 58f46def0e0310f4c6298f648fa1b1f2de074879f9035ff08285279f91060bb9b3c83d9c918b3ef2be3e08705f8858dc9139d9931832d89788d6efd3021c535d
   languageName: node
   linkType: hard
 
@@ -7217,7 +7224,7 @@ __metadata:
     "@babel/preset-env": 7.29.7
     "@babel/preset-typescript": 7.29.7
     "@babel/register": 7.29.7
-    "@types/dedent": 0.7.2
+    "@types/dedent": 1.7.2
     "@types/node": 18.19.130
     "@types/tape": 4.13.4
     "@types/vscode": 1.140.0
@@ -7226,7 +7233,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
     babel-loader: 9.2.1
-    dedent: 0.7.0
+    dedent: 1.7.2
     dockerfilelint: ^1.8.0
     eslint: 8.57.1
     eslint-config-prettier: 8.10.2
