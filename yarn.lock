@@ -3188,7 +3188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.25.0":
+"enhanced-resolve@npm:^5.26.0":
   version: 5.26.0
   resolution: "enhanced-resolve@npm:5.26.0"
   dependencies:
@@ -5324,13 +5324,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimizer-webpack-plugin@npm:^5.7.0":
-  version: 5.13.0
-  resolution: "minimizer-webpack-plugin@npm:5.13.0"
+"minimizer-webpack-plugin@npm:^5.13.0":
+  version: 5.13.1
+  resolution: "minimizer-webpack-plugin@npm:5.13.1"
   dependencies:
     "@jridgewell/trace-mapping": ^0.3.31
     jest-worker: ^27.4.5
-    schema-utils: ^4.3.3
+    schema-utils: ^4.6.0
     terser: ^5.51.0
   peerDependencies:
     webpack: ^5.1.0
@@ -5367,7 +5367,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: 68a35bfa14831a3f57a578c7e97752a4d70f79bc8952fa3bea7d84a9fb34fb4c780a78b8146fb77d433d8863089f868cffad1999b85cde79406c3c9246e8b777
+  checksum: 943d083014f3bb52be08639659c48b486ffc7624599cb010e94ae48f984c0b55ec2bd0856d97ce785ec905305c04a1026a0f52a99a45f6d3e901fbf2d62b37e7
   languageName: node
   linkType: hard
 
@@ -6313,15 +6313,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^4.3.3, schema-utils@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "schema-utils@npm:4.5.0"
+"schema-utils@npm:^4.6.0, schema-utils@npm:^4.8.1":
+  version: 4.8.1
+  resolution: "schema-utils@npm:4.8.1"
   dependencies:
     "@types/json-schema": ^7.0.15
     ajv: ^8.20.0
     ajv-formats: ^3.0.1
     ajv-keywords: ^5.1.0
-  checksum: dcab419755a27cb5e80e29c0fcfb3037edbaa90ba1ea8c8f2db2d1ba8595ad879298317a51ce76fab8e49213bd384947fbd79937e7487a8f5dcac61e9871c01c
+  peerDependencies:
+    webpack: ^5.112.0
+  peerDependenciesMeta:
+    webpack:
+      optional: true
+  bin:
+    schema-utils: bin/schema-utils.js
+  checksum: 27b48726b7e33b50cfba1c0c325759c863318ac850d950da01035098f1c10edef7606d4abffa6683d9c855a3e5b5e347c940a8f8968e1e07757d16a903f23bed
   languageName: node
   linkType: hard
 
@@ -7242,7 +7249,7 @@ __metadata:
     ts-node: 10.9.2
     typescript: 4.9.5
     vscode-test: 1.6.1
-    webpack: 5.111.1
+    webpack: 5.112.2
     webpack-cli: 4.10.0
   languageName: unknown
   linkType: soft
@@ -7269,12 +7276,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"watchpack@npm:^2.5.2":
-  version: 2.5.2
-  resolution: "watchpack@npm:2.5.2"
+"watchpack@npm:^2.6.3":
+  version: 2.6.3
+  resolution: "watchpack@npm:2.6.3"
   dependencies:
     graceful-fs: ^4.1.2
-  checksum: f057bf74f80e82ac283f9a8700c3c41fddcf6136bd2b91dd8895b6cdcee1adcf5825bcb8f63e6f313ac880c8954701ee2f6f187996b45027b8540fe6b5fbc301
+  checksum: 948fb4a7f3929776d7936a5a55540d2b22295dd75ee1c17306973ad11dda48406cf43511e4f8882e595a297014d77ef2bf7c8da97c888680c5cb5c0af50e08e9
   languageName: node
   linkType: hard
 
@@ -7328,16 +7335,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^3.5.1":
+"webpack-sources@npm:^3.6.0":
   version: 3.6.0
   resolution: "webpack-sources@npm:3.6.0"
   checksum: bf42251f35ccff1ed0fe6516716e6e55560fc6bd95b5f804d5e1f18d40b5b9d66ccf1c28bc3436ff2f40019728552b168fce8293e8f20b40a877f15b999143cd
   languageName: node
   linkType: hard
 
-"webpack@npm:5.111.1":
-  version: 5.111.1
-  resolution: "webpack@npm:5.111.1"
+"webpack@npm:5.112.2":
+  version: 5.112.2
+  resolution: "webpack@npm:5.112.2"
   dependencies:
     "@types/estree": ^1.0.8
     "@types/json-schema": ^7.0.15
@@ -7346,22 +7353,22 @@ __metadata:
     "@webassemblyjs/wasm-parser": ^1.14.1
     browserslist: ^4.28.1
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.25.0
+    enhanced-resolve: ^5.26.0
     es-module-lexer: ^2.1.0
     events: ^3.2.0
     graceful-fs: ^4.2.11
     mime-db: ^1.54.0
-    minimizer-webpack-plugin: ^5.7.0
-    schema-utils: ^4.5.0
+    minimizer-webpack-plugin: ^5.13.0
+    schema-utils: ^4.8.1
     tapable: ^2.3.0
-    watchpack: ^2.5.2
-    webpack-sources: ^3.5.1
+    watchpack: ^2.6.3
+    webpack-sources: ^3.6.0
   peerDependenciesMeta:
     webpack-cli:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: de2eb36c0b29b131bb660ba29a5eb9ddefda1329927e3d4d461497890646e286fa63572acbddc3db138d499d7dc7a8ecf4341b60b9b4ff2609aba3c1ee4299b2
+  checksum: dcb5f35f694d06ae235b826b9ed38a26c35326ee70ed1c58a52366c85e53ef38783efd4d1608e172918233b055b58f56b2c5026c7043a4764682f9716bb27430
   languageName: node
   linkType: hard
 
